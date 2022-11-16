@@ -28,7 +28,7 @@ public class Main {
                 .addPathSegment("forecast")
                 .addQueryParameter("lat", lat)
                 .addQueryParameter("lon", lon)
-                .addQueryParameter("limit", "6")
+                .addQueryParameter("limit", "5")
                 .addQueryParameter("lang", "ru_RU")
                 .addQueryParameter("extra", "false")
                 .addQueryParameter("hours", "false")
