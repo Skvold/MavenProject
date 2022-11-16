@@ -40,7 +40,7 @@ public class Main {
                 .addHeader(YANDEXApiKeyHeaderName, YANDEX_KEY)
                 .build();
         Response response = client.newCall(request).execute();
-        if (response.code() == 201) {
+        if (response.code() == 200) {
             Map<String, Object> responseMap = mapper.readValue(response.body().string(), Map.class);
             Map geoObject = (Map) responseMap.get("geo_object");
             Map locality = (Map) geoObject.get("locality");
