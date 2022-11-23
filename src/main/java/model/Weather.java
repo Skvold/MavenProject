@@ -18,6 +18,30 @@ public class Weather {
         this.dayCondition = dayCondition;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public int getNightTemperature() {
+        return nightTemperature;
+    }
+
+    public int getDayTemperature() {
+        return dayTemperature;
+    }
+
+    public String getNightCondition() {
+        return nightCondition;
+    }
+
+    public String getDayCondition() {
+        return dayCondition;
+    }
+
     @Override
     public String toString() {
         return "В городе " + city + " на дату " + date + " ожидается: ночью - " + nightCondition + ", температура " + nightTemperature +
