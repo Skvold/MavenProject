@@ -3,7 +3,7 @@ package model;
 public enum City {
 
     MOSCOW("55.755696", "37.617306", "Москва"),
-    ST_PETERSBURG("59.939079", "30.315766", "Санкт-Петербург"),
+    ST_PETERSBURG("59.939079", "30.315766", "Питер"),
     ULYANOVSK("54.314192", "48.403132", "Ульяновск");
 
     private final String lat;

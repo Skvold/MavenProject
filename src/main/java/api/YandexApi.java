@@ -74,7 +74,7 @@ public class YandexApi {
             }
             return result;
         } else {
-            throw new YandexApiException("Не получилось загрузить погоду. Код ответа: " + response.code());
+            throw new YandexApiException("Не грузится погода. Код ответа: " + response.code());
         }
     }
 }
