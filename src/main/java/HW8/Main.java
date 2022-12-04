@@ -47,7 +47,7 @@ public class Main {
                     List<Weather> weatherFromDb = null;
 
                     for (City cityEnum : City.values()) {
-                        if(city.equals(cityEnum.getName())) {
+                        if (city.equals(cityEnum.getName())) {
                             weatherFromDb = repository.getWeatherFromDb(cityEnum);
                             break;
                         }
