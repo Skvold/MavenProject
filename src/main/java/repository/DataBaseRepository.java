@@ -36,6 +36,7 @@ public class DataBaseRepository {
 
     /**
      * Метод сохранения объектов типа Weather, полученных из Яндекса, в базу данных
+     *
      * @param weathers список объектов погоды
      */
     public void saveWeather(List<Weather> weathers) {
@@ -63,6 +64,7 @@ public class DataBaseRepository {
 
     /**
      * Метод получения данных из базы и превращения их в объекты типа Weather
+     *
      * @return список полученных объектов из базы
      */
     public List<Weather> getWeatherFromDb(City city) {
@@ -100,7 +102,7 @@ public class DataBaseRepository {
         try (Connection connection = DriverManager.getConnection(dbUrl);
              PreparedStatement preparedStatement = connection.prepareStatement(cleanWeatherSql)) {
             preparedStatement.execute();
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
