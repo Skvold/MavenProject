@@ -74,7 +74,7 @@ public class Main {
                 System.out.println(weather);
             }
         } else {
-            System.out.println("Не получилось. Вернулся код:" + response.code());
+            System.out.println("Не прокатило. Вернулся код:" + response.code());
         }
     }
 }

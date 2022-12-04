@@ -21,6 +21,6 @@ public class Weather {
     @Override
     public String toString() {
         return "В городе " + city + " на дату " + date + " ожидается: ночью - " + nightCondition + ", температура " + nightTemperature +
-                " градусов; днем - " + dayCondition + ", температура " + dayTemperature + " градусов.";
+                " градусов; день - " + dayCondition + ", температура " + dayTemperature + " градусов.";
     }
 }
