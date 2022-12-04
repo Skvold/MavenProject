@@ -63,7 +63,7 @@ public class DataBaseRepository {
 
     /**
      * Метод получения данных из базы и превращения их в объекты типа Weather
-     * @return список полученных объектов из базы
+     * @return список полученных объектов из базы.
      */
     public List<Weather> getWeatherFromDb(City city) {
         String getWeatherSql = "SELECT * FROM Weather WHERE city = ?";

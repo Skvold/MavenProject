@@ -71,7 +71,7 @@ public class Main {
                     break;
                 }
                 default: {
-                    System.out.println("такой команды нет");
+                    System.out.println("такой команды нема");
                 }
             }
         }

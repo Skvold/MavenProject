@@ -2,7 +2,7 @@ package exception;
 
 public class YandexApiException extends Exception{
 
-    public YandexApiException(String message) {
-        super(message);
+    public YandexApiException(String Message) {
+        super(Message);
     }
 }
