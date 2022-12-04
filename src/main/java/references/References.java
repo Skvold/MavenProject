@@ -6,7 +6,7 @@ import java.util.Map;
 public class References {
     public static final Map<String, String> yandexApiConditions = new HashMap<String, String>() {{
         put("clear", "ясно");
-        put("partly-cloudy", "малооблачно");
+        put("partly-cloudy", "малооблаков");
         put("cloudy", "облачно с прояснениями");
         put("overcast", "пасмурно");
         put("partly-cloudy-and-light-rain", "малооблачно, небольшой дождь");
